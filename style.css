@@ -1,0 +1,272 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    height: 80px;
+
+}
+.firstDiv{
+    margin-left: 100px;   
+    margin-top: auto; 
+    margin-bottom: auto;
+    
+}
+.secDiv{
+    margin:auto;
+}
+nav div a{
+    text-decoration: none;
+    color:whitesmoke;
+    margin: 25px;
+    font-size: 20px;
+}
+nav div h1 {
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+body header{
+    background-color: black;
+    height: 200%;
+    margin: 0;
+    padding: 0;
+
+}
+.image{
+    margin-right: 100px;
+   display: block;
+   height: 550px;
+    margin-top: 100px;
+}
+.footerImg{
+    width: 100%;
+    height: 10;
+}
+footer{
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    height: auto;
+    
+}
+li{
+    list-style-type: none;
+    color: aliceblue;
+
+}
+.logo{
+    height: 20px;
+    margin: 5px;
+}
+.fmd{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.firstd{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.secd{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.btn1{
+    width: 140px;
+    height: 60px;
+    color: rgb(33, 255, 222);
+    border : 2px solid white;
+    background: black;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.btn1:hover{
+    background-color: black;
+    color: green;
+
+}
+.btn2{
+    
+    width: 140px;
+    height: 60px;
+    border : 2px solid white;
+    background: black;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    
+}
+.btn2:hover{
+    color: green;
+    background-color: white;
+}
+.h1t{
+    font-size: 50px;
+    color: aliceblue;
+}
+.fnav{
+    text-decoration: none;
+    color:aliceblue
+}
+.green{
+    color: rgb(33, 255, 222);;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#marg{
+    margin: 20px  0;
+}
+#marb{
+    margin-bottom: 20px;
+}
+footer div div ul li {
+    margin: 10px;
+}
+nav div h2 h1{
+    color: green;
+}
+#helloWorld {  
+    color: rgb(33, 255, 222);; 
+} 
+.navKey:hover{
+    color: green;
+}
+.aboutli{
+    text-decoration: none;
+    color: white;
+    
+}
+main{
+    background-color: black;
+    padding-bottom: 400px;
+    
+}
+.ph2{
+    color: rgb(33, 255, 222);
+    text-align: center;
+}
+.pabout{
+    color: white;
+    font-size: 20px;
+    padding: 0 50px;
+    text-align: center;
+}
+.ph1{
+    color: rgb(33, 255, 222);;
+    padding-top: 50px;
+    text-align: center;
+    
+   
+}
+
+.conh3{
+    color: white;
+    
+}
+#conb1{
+    width: 100px;
+    height: 25px
+}
+#conb2{
+    width: 200px;
+    height: 25px;
+}
+#conbtn{
+    height: 40px;
+    width: 60px;
+    font-size: larger;
+    color: black;
+    background-color: white;
+    border: .5;
+    border-radius: 5px;
+    /* margin-left: 60px; */
+}
+#conbtn:hover{
+    color: rgb(33, 255, 222);
+    background-color: black;
+}
+#aboutul{
+    text-align: center;
+    margin-top: 10px;
+}
+#aboutp2{
+    color: white;
+}
+#pnew{
+    color: white;
+    text-align: center;
+}
+.parentdivv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.imageclass{
+    width: 180px;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+
+.btnpro{
+    margin-left: 27%;
+    margin-top: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: 0px;
+    font-weight: bold;
+}
+.btnpro:hover{
+    background-color: rgb(33, 255, 222);
+    color: white
+    
+}
+#titlepro{
+    text-align: center;
+    color: rgb(33, 255, 222);
+    padding-top: 50px;
+}
+#promain{
+    background-color: black;
+    padding-bottom: 300px;
+    
+}
+#contacth1{
+    color: rgb(33, 255, 222);
+    padding-top: 50px ;
+    text-align: center;
+}
+#contactflex{
+    display: flex;
+    justify-content: space-around;
+}
+#connectdiv{
+    margin-top: 90%
+}
+form{
+    margin-top: 30%;
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
